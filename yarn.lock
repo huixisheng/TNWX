@@ -1152,6 +1152,40 @@
   dependencies:
     "@types/node" ">= 8"
 
+"@tnwx/accesstoken@^2.5.4":
+  version "2.5.4"
+  resolved "https://registry.npm.taobao.org/@tnwx/accesstoken/download/@tnwx/accesstoken-2.5.4.tgz#197b3addb67479db0fb5de2d368c4fce3a9d447c"
+  integrity sha1-GXs63bZ0edsPtd4tNoxPzjqdRHw=
+  dependencies:
+    "@tnwx/cache" "^2.5.4"
+    "@tnwx/kits" "^2.5.4"
+
+"@tnwx/cache@^2.5.4":
+  version "2.5.4"
+  resolved "https://registry.npm.taobao.org/@tnwx/cache/download/@tnwx/cache-2.5.4.tgz#e4f34c801c786ae65cdaefa9a766c3d410a7c76e"
+  integrity sha1-5PNMgBx4auZc2u+pp2bD1BCnx24=
+
+"@tnwx/commons@^2.5.0":
+  version "2.5.4"
+  resolved "https://registry.npm.taobao.org/@tnwx/commons/download/@tnwx/commons-2.5.4.tgz#c0bde8cde8034e795769a9c56eeebbf3e9d19a33"
+  integrity sha1-wL3ozegDTnlXaanFbu678+nRmjM=
+  dependencies:
+    "@tnwx/accesstoken" "^2.5.4"
+    "@tnwx/cache" "^2.5.4"
+    "@tnwx/kits" "^2.5.4"
+
+"@tnwx/kits@^2.5.4":
+  version "2.5.4"
+  resolved "https://registry.npm.taobao.org/@tnwx/kits/download/@tnwx/kits-2.5.4.tgz#229bf3de62764669b68a5f501be2c21a1e56f5f4"
+  integrity sha1-Ipvz3mJ2Rmm2il9QG+LCGh5W9fQ=
+  dependencies:
+    axios "^0.19.0"
+    concat-stream "^2.0.0"
+    request "^2.88.0"
+    urlencode "^1.1.0"
+    uuid "^3.3.3"
+    xml2js "^0.4.22"
+
 "@types/babel__core@^7.1.0":
   version "7.1.6"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.6.tgz#16ff42a5ae203c9af1c6e190ed1f30f83207b610"
